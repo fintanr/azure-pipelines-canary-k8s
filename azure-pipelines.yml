@@ -76,4 +76,3 @@ stages:
               action: 'deploy'
               manifests: |
                 $(Pipeline.Workspace)/misc/servicemonitor.yml 
-                $(Pipeline.Workspace)/misc/fortio-update.yml     
