@@ -75,4 +75,4 @@ stages:
             inputs:
               action: 'deploy'
               manifests: |
-                $(Pipeline.Workspace)/misc/*      
+                $(Pipeline.Workspace)/misc/servicemonitor.yml      
